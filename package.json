@@ -1,0 +1,18 @@
+{
+  "name": "oppsy",
+  "version": "1.0.0",
+  "description": "Your friendly operations' manager at Infino.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./__tests__/**/*.specs.js -t 30"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.infino.io:chatops/oppsy.git"
+  },
+  "author": "Shreyansh Pandey <shreyansh@getinfino.com>",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "dependencies": {
+    "@slack/bolt": "^1.2.0"
+  }
+}
